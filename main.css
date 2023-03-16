@@ -31,9 +31,9 @@ ul li a:hover{
     transition:0.5s;  
 }
 @media screen and (max-width:600px){
-    .links ul li {
-        width:9.5em;
-        margin-left:-5em;
+    .links ul li a {
+     margin-left:-13em;
+        
 
     }
 }
@@ -143,8 +143,8 @@ ul li a:hover{
     }
  /*******************************adverts******************************************/
 .adverts{
-        border:3px solid black;
-        width:500x;
+        border:0px solid black;
+        width:350px;
         height:150px;
         float: right;
         margin-top: -23.4em;
@@ -156,7 +156,7 @@ ul li a:hover{
 #one{
     margin:30px;
     height:90px;
-    width: 450px;
+    width: 400px;
     display: flex;
     margin-top:10px;
 }
@@ -198,7 +198,7 @@ ul li a:hover{
     padding-left: 12px;
 }
 #cos{
-    border: 1px solid red;
+    border: 0px solid red;
     margin-top:80px;
      font-size:1.5em; 
      color:#cccccc;
