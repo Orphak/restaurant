@@ -143,7 +143,7 @@ ul li a:hover{
             display: block;
         }
          #first{
-            width: 400px;
+            width:350px;
             height: 100px;
             margin-top:2em;
             margin-left:2em;
@@ -152,7 +152,7 @@ ul li a:hover{
             font-size:0.9em;
         }
         #second{
-            width: 400px;
+            width:350px;
             height: 100px;
             margin-top:2em;
             margin-left:2em;
@@ -161,23 +161,23 @@ ul li a:hover{
             font-size:0.9em;
         }
         .article2{
-            width: 30em;
+            width:30em;
             height: 8em;
             margin-left:0.2em;
             display: block;
             padding-top: 10em;
         }
         #third{
-            width: 400px;
+            width:350px;
             height: 100px;
             margin-top:-1.2em;
             margin-left:2em;
         }
         #third p{
-            font-size:0.9em;
+            font-size:0.7em;
         }
         #fourth{
-            width: 400px;
+            width:350px;
             height: 100px;
             margin-top:2em;
             margin-left:2em;
@@ -297,7 +297,7 @@ ul li a:hover{
     .adverts{
     display: block;
     float: left;
-    margin-top:5em;
+    margin-top:7em;
     height: 700px;
     }
 #one{
@@ -499,6 +499,7 @@ h3{
         width:400px;
         display: block;
         margin-top:-0.1em;
+        margin-left:0.1em;
     }
     h3{
         padding-left:4px;
@@ -756,16 +757,16 @@ color: #a6a6a6;
     .cont{
      margin-left: -10em;
      font-size: 0.8em;
-     padding-right:20px ;
+     padding-right:17px ;
     }
     h3{
     font-size:0.9em;
     }
     #cont2{
-     margin-left: -20em;
+     margin-left: -23em;
     }
     #cont3{
-     margin-left: -22em;
+     margin-left: -24em;
     }
  }
  
