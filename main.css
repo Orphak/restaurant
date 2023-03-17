@@ -32,7 +32,7 @@ ul li a:hover{
 }
 @media screen and (max-width:600px){
     .links ul li a {
-     margin-left:-13em;
+     margin-left:-15em;
         
 
     }
@@ -53,7 +53,7 @@ ul li a:hover{
 }
 #first img{
     width:70px;
-    height:60px ;
+    height:50px ;
     float:right;
 }
 #second{
@@ -66,7 +66,7 @@ ul li a:hover{
 }
 #second img{
     width:70px;
-    height:60px ;
+    height:50px ;
     float:right;
 } 
 @media screen and (max-width:600px){
@@ -103,7 +103,7 @@ ul li a:hover{
 }
 #third img{
     width:70px;
-    height:60px ;
+    height:50px ;
     float:right;
 }
 #fourth{
@@ -115,29 +115,43 @@ ul li a:hover{
 }
 #fourth img{
         width:70px;
-        height:60px ;
+        height:50px ;
         float:right;
     }
     @media screen and (max-width:600px){
         .article1{
             display: block;
         }
+         #first{
+            width: 400px;
+            height: 115px;
+        }
+        #first p{
+            font-size:0.9em;
+        }
+        #second{
+            width: 400px;
+            height: 115px;
+        }
+         #second p{
+            font-size:0.9em;
+        }
         .article2{
-            width: 35em;
+            width: 30em;
             height: 8em;
             margin-left:0.2em;
             display: block;
             padding-top: 10em;
         }
         #third{
-            width: 200px;
+            width: 400px;
             height: 115px;
         }
         #third p{
-            font-size:0.5em;
+            font-size:0.9em;
         }
         #fourth{
-            width: 200px;
+            width: 400px;
             height: 115px;
         }
     }
@@ -148,6 +162,7 @@ ul li a:hover{
         height:150px;
         float: right;
         margin-top: -23.4em;
+        margin-right:10em;
     }
 .item{
     display:contents;
@@ -201,10 +216,13 @@ ul li a:hover{
     border: 0px solid red;
     margin-top:80px;
      font-size:1.5em; 
-     color:#cccccc;
+     color:#b3b3b3;
      width: 500px;
      padding-left:2em;
      height:130px;
+}
+#cos p{
+    color:white;
 }
 @media screen and (max-width:600px){
     .adverts{
@@ -220,15 +238,15 @@ ul li a:hover{
    
 }
   #ten img{
-    width:90px; 
+    width:150px; 
     height:100px;
 }
 #te img{
-    width:90px; 
+    width:150px; 
     height:100px;
 }
 #the img{
-    width:90px; 
+    width:150px; 
     height:100px;
 }
 #cos{
@@ -239,6 +257,7 @@ ul li a:hover{
 #cos p{
     font-size: 0.7em;
     margin-left:0.2em;
+    color: white;
 }
 }
 /*******************************ABOUT************************************/
@@ -248,39 +267,79 @@ ul li a:hover{
     margin-top:100px;
     margin-left:20px;
 }
+h3{
+    padding-left:40%;
+     margin-top:60px;
+     font-size:50px;
+}
+#six img{
+    width:400px; 
+    height:200px;
+    border-top-right-radius:20px;
+    border-bottom-left-radius:20px;
+    }
+#sev img{
+    width:350px;
+     height:200px;
+     border-top-right-radius:50%;
+     border-bottom-left-radius:50%;
+}
+#sev p{
+    padding-left:150px;
+     margin-top:-50px; 
+     color:#8600b3;
+      font-size:20px;  
+}
 @media screen and (max-width:600px){
     .aboutt{
-        height:200px;
-        width:150px;
+        border: 0px solid aqua;
+        height:600px;
+        width:400px;
+        display: block;
+        margin-top:-0.1em;
+    }
+    h3{
+        padding-left:4px;
+         margin-top:60px;
+         font-size:1em;
     }
     #wit img{
+        margin-left:2em;
         height: 8em;
-        width:8em;
+        width:12em;
     }
     #wit p{
         font-size:0.7em;
+        padding-left:2em;
     }
     #six img{
-        height:100px;
-        width:200px;
+        height:8em;
+        width:12em;
+        padding-top: 2em;
     }
     #six p{
         font-size:0.7em;
     }
     #sev img{
-        height: 100px;
-        width:200px;
+        height:10em;
+        width:15em;
+        padding-top: 2em;
     }
     #sev p{
-        font-size:0.7em;
+        font-size:0.75em;
     }
 }
 /************************************** services********************************************/
 .content{
+    border: 0px solid aquamarine;
     display: flex;
     margin-top:30px;
     margin-left:120px;
-
+}
+h2{
+    color: #1a1aff;
+    padding-left: 15em;
+    padding-top: 1em;
 }
 #content1{
     border:0px solid black;
@@ -308,6 +367,9 @@ ul li a:hover{
         font-size: small;
 
     }
+#content2 img{
+    height:500px;
+}
 #content3{
     border:0px solid black;
     width:300px;
@@ -332,11 +394,49 @@ ul li a:hover{
 }
 @media screen and (max-width:600px){
      .content{
-        width:300px;
-        height: 500px;
+        width:400px;
+        height:1600px;
+        margin-left:1em;
+        display: block;
      }
-     
-    
+h2{
+    margin-left:-13em;
+}  
+#content1{
+    margin-left: 1em;
+    width:12em;
+    height:20em;
+} 
+#content1 p{
+    font-size:0.8em;
+}
+#content1 ol li{
+    font-size:small;
+}
+#content1 ol{
+    padding-top: 0.5em;
+}
+#content2 img{
+    width:12em;
+    height:13em;
+}
+#content3{
+    margin-left: 1em;
+    width:12em;
+    height:20em;
+} 
+#content3 h1{
+    font-size:1.2em ;
+}
+#content3 p{
+    font-size:0.8em;
+}
+#content3 ul li{
+    font-size:small;
+}
+#content3 ul{
+    padding-top: 0.5em;
+}
 }
 /**************************************contact us********************************/
 .cont{
@@ -348,7 +448,8 @@ ul li a:hover{
 h3{
     text-align: center;
      margin-top:10%;
-     font-size:70px
+     font-size:70px;
+     margin-left:-7em;
 }
 #cont2{
     padding-left:320px;
@@ -376,12 +477,12 @@ color: #a6a6a6;
      padding-right:20px ;
     }
     h3{
-    font-size:1.5em;
+    font-size:0.9em;
     }
     #cont2{
-     margin-left: -18em;
+     margin-left: -20em;
     }
     #cont3{
-     margin-left: -20em;
+     margin-left: -22em;
     }
  }
