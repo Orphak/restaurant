@@ -146,7 +146,6 @@ ul li a:hover{
             width:350px;
             height: 100px;
             margin-top:2em;
-            margin-left:2em;
         }
         #first p{
             font-size:0.9em;
@@ -155,7 +154,7 @@ ul li a:hover{
             width:350px;
             height: 100px;
             margin-top:2em;
-            margin-left:2em;
+            margin-left:0px;
         }
          #second p{
             font-size:0.9em;
@@ -170,8 +169,7 @@ ul li a:hover{
         #third{
             width:350px;
             height: 100px;
-            margin-top:-1.2em;
-            margin-left:2em;
+            padding-left:2em;
         }
         #third p{
             font-size:0.7em;
@@ -180,7 +178,7 @@ ul li a:hover{
             width:350px;
             height: 100px;
             margin-top:2em;
-            margin-left:2em;
+            margin-left:0px;
         }
     }
     @media screen and (max-width:900px) and (min-width:601px){
@@ -676,51 +674,100 @@ h2{
     padding-top:20px;
 }
 @media screen and (max-width:600px){
-     .content{
-        width:400px;
-        height:1600px;
-        margin-left:1em;
-        display: block;
-     }
+    .content{
+       width:400px;
+       height:1600px;
+       margin-left:1em;
+       display: block;
+    }
 h2{
-    margin-left:-13em;
+   margin-left:-13em;
 }  
 #content1{
-    margin-left: 1em;
-    width:12em;
-    height:20em;
+   margin-left: 1em;
+   width:12em;
+   height:20em;
 } 
 #content1 p{
-    font-size:0.8em;
+   font-size:0.8em;
 }
 #content1 ol li{
-    font-size:small;
+   font-size:small;
 }
 #content1 ol{
-    padding-top: 0.5em;
+   padding-top: 0.5em;
 }
 #content2 img{
-    width:12em;
-    height:13em;
+   width:12em;
+   height:13em;
 }
 #content3{
+   margin-left: 1em;
+   width:12em;
+   height:20em;
+} 
+#content3 h1{
+   font-size:1.2em ;
+}
+#content3 p{
+   font-size:0.8em;
+}
+#content3 ul li{
+   font-size:small;
+}
+#content3 ul{
+   padding-top: 0.5em;
+}
+}
+
+@media screen and (max-width:900px) and (min-width:601px){
+   .content{
+    width:400px;
+    height:1600px;
+    margin-left:1em;
+    display: block;
+   }
+   h2{
+    color: #1a1aff;
+    padding-left:3em;
+    padding-top: 1em;
+}
+   #content1{
     margin-left: 1em;
     width:12em;
     height:20em;
-} 
-#content3 h1{
-    font-size:1.2em ;
-}
-#content3 p{
+ } 
+ #content1 p{
     font-size:0.8em;
-}
-#content3 ul li{
+ }
+ #content1 ol li{
     font-size:small;
-}
-#content3 ul{
+ }
+ #content1 ol{
     padding-top: 0.5em;
-}
-}
+ }
+ #content2 img{
+    width:12em;
+    height:13em;
+ }
+ #content3{
+    margin-left: 1em;
+    width:12em;
+    height:20em;
+ } 
+ #content3 h1{
+    font-size:1.2em ;
+ }
+ #content3 p{
+    font-size:0.8em;
+ }
+ #content3 ul li{
+    font-size:small;
+ }
+ #content3 ul{
+    padding-top: 0.5em;
+ }
+    } 
 /**************************************contact us********************************/
 .cont{
     border: 0px solid black;
